@@ -84,9 +84,9 @@ We use the **Telco Customer Churn dataset** from Kaggle. It contains customer de
 ---
 
 ## Author
-**Your Name**  
+**Gaurav Singh Bhati**  
 Data Science Enthusiast | Machine Learning Practitioner  
-[LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)
+[LinkedIn](https://www.linkedin.com/in/gauravbhati2099) | [GitHub](https://github.com/gauravbhati2099)
 
 ---
 
