@@ -5,17 +5,17 @@
 ---
 
 ## Project Overview
-The **Customer Churn Prediction** project aims to identify customers who are likely to leave a service (churn) based on historical data. Predicting churn helps companies take proactive actions to retain customers, reducing revenue loss.
+The **Customer Churn Prediction** project focuses on identifying customers who are likely to leave a service (churn) based on historical data. Accurate churn prediction enables companies to take proactive retention measures, minimizing revenue loss.
 
 ---
 
 ## Dataset
-The dataset used for this project is the **Telco Customer Churn dataset** from Kaggle. It includes customer demographics, account information, and churn status.
+We use the **Telco Customer Churn dataset** from Kaggle. It contains customer demographics, account information, and churn status.
 
 **Key Features:**
-- Customer demographics: `gender`, `SeniorCitizen`, `Partner`, `Dependents`
-- Account information: `tenure`, `Contract`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`
-- Churn label: `Churn` (Yes/No)
+- **Customer demographics:** `gender`, `SeniorCitizen`, `Partner`, `Dependents`
+- **Account information:** `tenure`, `Contract`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`
+- **Churn label:** `Churn` (Yes/No)
 
 [Download Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
 
@@ -24,17 +24,17 @@ The dataset used for this project is the **Telco Customer Churn dataset** from K
 ## Project Steps
 
 ### 1. Data Loading and Exploration
-- Load the dataset into a DataFrame.
-- Explore data types, missing values, and basic statistics.
-- Visualize distributions and correlations.
+- Load the dataset into a Pandas DataFrame.
+- Explore data types, missing values, and descriptive statistics.
+- Visualize distributions and correlations among features.
 
 ### 2. Data Cleaning
 - Handle missing or inconsistent values.
-- Convert categorical variables into numeric formats using one-hot encoding or label encoding.
-- Normalize or scale numerical features if required.
+- Convert categorical variables into numeric formats (one-hot encoding / label encoding).
+- Normalize or scale numerical features as needed.
 
 ### 3. Feature Engineering
-- Create new features if needed (e.g., tenure groups, average charges).
+- Create new features if necessary (e.g., tenure groups, average charges).
 - Select features most correlated with churn.
 
 ### 4. Model Selection and Training
@@ -44,24 +44,29 @@ The dataset used for this project is the **Telco Customer Churn dataset** from K
   - Random Forest
   - Gradient Boosting
   - XGBoost
-- Evaluate using metrics: Accuracy, Precision, Recall, F1-Score, ROC-AUC.
+- Evaluate models using metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+  - ROC-AUC
 
 ### 5. Model Evaluation
-- Compare model performances.
-- Use cross-validation to ensure model robustness.
-- Visualize feature importance to understand key churn drivers.
+- Compare performances of different models.
+- Apply cross-validation for robustness.
+- Visualize feature importance to understand key drivers of churn.
 
 ### 6. Deployment (Optional)
 - Export the trained model using `pickle` or `joblib`.
-- Create a simple interface for predicting churn for new customers.
+- Create a simple interface for predicting churn of new customers (Flask or Streamlit).
 
 ---
 
-## Tools and Technologies
-- **Python**: Pandas, NumPy, Matplotlib, Seaborn
-- **Machine Learning**: Scikit-learn, XGBoost
-- **Version Control**: Git/GitHub
-- **Optional Deployment**: Flask or Streamlit
+## Tools & Technologies
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Machine Learning:** Scikit-learn, XGBoost  
+- **Version Control:** Git/GitHub  
+- **Optional Deployment:** Flask or Streamlit  
 
 ---
 
@@ -73,6 +78,6 @@ Data Science Enthusiast | Machine Learning Practitioner
 ---
 
 ## References
-1. [Kaggle: Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
-2. [Scikit-learn Documentation](https://scikit-learn.org/)
-3. [XGBoost Documentation](https://xgboost.readthedocs.io/)
+1. [Kaggle: Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)  
+2. [Scikit-learn Documentation](https://scikit-learn.org/)  
+3. [XGBoost Documentation](https://xgboost.readthedocs.io/)  
