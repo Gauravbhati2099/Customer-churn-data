@@ -1,6 +1,19 @@
 # Customer Churn Prediction Project
 
-**GitHub Topics:** `machine-learning`, `data-science`, `python`, `predictive-modeling`, `customer-churn`, `classification`, `pandas`, `scikit-learn`, `xgboost`, `visualization`
+![machine-learning](https://img.shields.io/badge/machine--learning-blue?style=for-the-badge&logo=python)
+![data-science](https://img.shields.io/badge/data--science-lightgrey?style=for-the-badge)
+![python](https://img.shields.io/badge/python-yellow?style=for-the-badge&logo=python)
+![predictive-modeling](https://img.shields.io/badge/predictive--modeling-green?style=for-the-badge)
+![customer-churn](https://img.shields.io/badge/customer--churn-red?style=for-the-badge)
+![classification](https://img.shields.io/badge/classification-orange?style=for-the-badge)
+![pandas](https://img.shields.io/badge/pandas-blue?style=for-the-badge&logo=pandas)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-lightgrey?style=for-the-badge)
+![xgboost](https://img.shields.io/badge/xgboost-red?style=for-the-badge)
+![visualization](https://img.shields.io/badge/visualization-blue?style=for-the-badge)
+![beginner-friendly](https://img.shields.io/badge/beginner--friendly-brightgreen?style=for-the-badge)
+![first-project](https://img.shields.io/badge/first--project-lightblue?style=for-the-badge)
+![friendly](https://img.shields.io/badge/friendly-blue?style=for-the-badge)
+![ready-to-use](https://img.shields.io/badge/ready--to--use-green?style=for-the-badge)
 
 ---
 
